@@ -1,0 +1,89 @@
+body {
+    text-rendering: optimizeLegibility !important;
+    font-size: 100% !important;
+	font-family: 'Lucida Grande' !important; 
+    padding-top: 0px !important ;
+    color: #000000 !important;
+    background: #EEEEEE !important;
+    height: 100% !important;
+}
+
+h1 {
+    font-weight: normal !important;
+}
+
+p {
+    font-size: 1.5em !important;
+    font-weight: normal !important;
+	font-family: 'Lucida Grande' !important; 
+    line-height: 150% !important;
+    margin: .5em auto 0 auto !important;
+    padding: 0 !important;
+    text-align: left;
+}
+
+b {
+    font-weight: normal !important;
+}
+
+input {
+    font-size: 1em !important;
+}
+
+table {
+    width: 300px !important;
+}
+
+form {
+    background: #FFFFFF !important;
+    padding: 0 1em 1em 1em !important;
+    -moz-border-radius: 10px !important; 
+    -webkit-border-radius: 10px !important; 
+    border-radius: 10px !important;
+    margin: 1em auto 0 auto !important;
+    -webkit-box-shadow: 0px 0px 7px #AAAAAA !important;
+    -moz-box-shadow: 0px 0px 7px #AAAAAA !important;
+    overflow: hidden !important;
+}
+
+input[type='text'],
+input[type='password']{
+    padding: .25em;
+    color: #111111;
+}
+
+input[type='submit'] {
+    -moz-border-radius: 15px !important; 
+    -webkit-border-radius: 15px ;
+    border-radius: 15px ;
+    font-size: 1em !important ;
+    border: 1px #AAAAAA solid !important;
+    padding: .5em 1em .5em 1em !important;
+    outline: none !important;
+    background-color: #CCCCCC !important; /* fallback color */
+    background-image: -moz-linear-gradient(100% 100% 90deg, #CCCCCC, #FFFFFF) !important;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#CCCCCC)) !important; 
+    color:#333333 !important;
+    margin: 1em auto 1em auto !important;
+    /* text-align: center !important; */
+    text-shadow: #EEEEEE 1px 1px !important;
+    display:block !important;
+}
+
+input[type='submit']:hover {
+    border: 1px #777777 solid !important;
+    color: #111111 !important;
+    text-decoration: none !important;
+}
+
+input[type='submit']:active {
+    border: 1px #BBBBBB solid !important;
+    color: #111111 !important;
+    background-image: none !important;
+    background-color: #CCCCCC !important;
+    text-decoration: none !important;
+}
+
+#block-w {
+    margin:1em;
+}
