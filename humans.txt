@@ -2,5 +2,5 @@
 /* humanstxt.org */
 
 
-/* There's in I in TEAM but there is a ME */
+/* There's no I in TEAM but there is a ME */
   jody : @josephtate
